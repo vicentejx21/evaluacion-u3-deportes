@@ -1,0 +1,73 @@
+/* src/pages/Auth.css */
+
+.auth-page {
+    /* Fondo con imagen y degradado morado de SportClub */
+    background: linear-gradient(rgba(37, 17, 68, 0.9), rgba(37, 17, 68, 0.9)), url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1920') no-repeat center center;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.auth-box {
+    width: 100%;
+    max-width: 400px;
+    background: white;
+    padding: 40px;
+    text-align: center;
+    border: 4px solid #fcb622; /* Borde amarillo SportClub */
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+
+.auth-box h2 {
+    color: #251144;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.auth-box input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.auth-box button {
+    padding: 12px;
+    width: 100%;
+    border-radius: 25px;
+    background: #fcb622;
+    color: #251144;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.auth-box button:hover {
+    background: #e5a51f;
+    transform: scale(1.02);
+}
+
+.auth-links {
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+.auth-links a {
+    color: #251144;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.auth-links a:hover {
+    color: #fcb622;
+}
