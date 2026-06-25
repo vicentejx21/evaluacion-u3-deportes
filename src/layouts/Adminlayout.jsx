@@ -21,7 +21,7 @@ return (
             
             <Nav className="me-auto">
             <Link className="nav-link" to="/admin/dashboard">Panel de Control</Link>
-            
+            <Link className="nav-link" to="/admin/sports">Deportes</Link>
             <Link className="nav-link" to="/admin/users">Usuarios</Link>
             </Nav>
 
