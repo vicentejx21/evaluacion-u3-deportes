@@ -46,6 +46,7 @@ export default function AppRoutes() {
                 }>
                     <Route path="dashboard" element={<CoachDashboard />} />
                 </Route>
+                <Route path="/admin/sports" element={<SportsPage />} />
 
         /* === RUTAS PROTEGIDAS: ADMINISTRADOR === */
                 <Route path="/admin" element={
