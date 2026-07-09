@@ -17,7 +17,7 @@ function Register() {
         setMensajeExito("");
 
         try {
-            const response = await fetch(`${import.meta.env.VITE_API_URL}/Register`, {
+            const response = await fetch(`${import.meta.env.VITE_API_URL}/api/auth/Register`, {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 // AQUÍ ESTÁ LA MAGIA: Le pasamos "full_name" en vez de "name" o "nombre"
