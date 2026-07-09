@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:3000/api/sports";
+const API_URL = `${import.meta.env.VITE_API_URL}/sports`;
 
 const getHeaders = () => {
     const token = localStorage.getItem("token");
