@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Badge, Button, Card, Spinner, Table } from "react-bootstrap";
 import Swal from "sweetalert2";
-import UserFormModal from "../../components/users/UserFormModal";
+import UserFormModal from "../../components/Users/UserFormModal";
 import {
 createUser,
 deleteUser,
